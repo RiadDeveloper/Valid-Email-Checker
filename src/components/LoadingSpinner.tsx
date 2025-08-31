@@ -1,0 +1,11 @@
+import React from 'react';
+
+const LoadingSpinner: React.FC = () => {
+  return (
+    <div className="relative">
+      <div className="w-5 h-5 border-2 border-current border-t-transparent rounded-full animate-spin"></div>
+    </div>
+  );
+};
+
+export default LoadingSpinner;
